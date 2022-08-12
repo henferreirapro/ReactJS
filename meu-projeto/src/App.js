@@ -1,11 +1,11 @@
-
 import './App.css';
+import OlaMundo from './components/OlaMundo';
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá, Mundo!</h1>
-      
+      < OlaMundo />
+
     </div>
   );
 }
