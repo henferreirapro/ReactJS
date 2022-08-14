@@ -1,13 +1,29 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 2em;
+  background-color: rgba(174, 245, 206, 0.692);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
+
+h2 {
+  color: rgb(158, 126, 45);
+}
+
+/* PODEMOS DEIXAR ESTILO DO Pessoa.module.css no CSS GERAL
+section {
+  border: 1px solid;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 110%;
+}
+
+img {
+  border-radius: 50%;
+}
+*/

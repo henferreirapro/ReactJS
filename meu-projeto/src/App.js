@@ -2,12 +2,12 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import PessoaComProps from './components/PessoaComProps';
 import PessoaSemProps from './components/PessoaSemProps';
+import Frase from './components/Frase';
 
 function App() {
   return (
     <div className="App">
-      < SayMyName nome="Henrique" />
-      < SayMyName nome="Edu"/>
+      <Frase />
       
       <section>
         <PessoaSemProps
