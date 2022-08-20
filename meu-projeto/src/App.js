@@ -1,13 +1,12 @@
 import './App.css';
-import ListasCondicionais from './components/condicionais/ListasCondicionais';
+import RenderMensagem from './components/state-lift/RenderMensagem'
 
 function App() {
-  const meusItens = ["React", "Flutter", "Angular"]
+  
   
   return (
     <div className="App">
-      <ListasCondicionais itens={meusItens} />
-      <ListasCondicionais itens={[]} />
+      <RenderMensagem />
     </div>
   );
 }
