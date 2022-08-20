@@ -1,12 +1,14 @@
 import './App.css';
-import Condicional from './components/Condicional';
+import ListasCondicionais from './components/condicionais/ListasCondicionais';
 
 function App() {
+  const meusItens = ["React", "Flutter", "Angular"]
+  
   return (
     <div className="App">
-    <Condicional />
+      <ListasCondicionais itens={meusItens} />
+      <ListasCondicionais itens={[]} />
     </div>
-    
   );
 }
 
