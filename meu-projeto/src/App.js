@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
 import Footer from './components/layout/Footer';
-import NavNar from './components/layout/NavBar';
+import NavBar from './components/layout/NavBar';
 import Contato from './components/pages/Contato';
 import Empresa from './components/pages/Empresa';
 import Home from './components/pages/Home';
@@ -12,7 +12,7 @@ function App() {
   
   return (
     <Router>
-      <NavNar />
+      <NavBar />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/empresa' element={<Empresa />} />

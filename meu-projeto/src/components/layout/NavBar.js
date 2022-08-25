@@ -1,19 +1,22 @@
 import {Link} from 'react-router-dom'
+import styles from './NavBar.module.css'
 
-function NavNar() {
+function NavBar() {
   return (
-    <ul>
-      <li>
-        <Link to="/" >Home</Link>
-      </li>
-      <li>
-        <Link to="/empresa" >Empresa</Link>
-      </li>
-      <li>
-        <Link to="/contato" >Contato</Link>
-      </li>
-    </ul>
+    <nav className={styles.nav}>
+      <ul className={styles.nav_list}>
+        <li>
+          <Link to="/" className={styles.link}>Home</Link>
+        </li>
+        <li>
+          <Link to="/empresa" className={styles.link}>Empresa</Link>
+        </li>
+        <li>
+          <Link to="/contato" className={styles.link}>Contato</Link>
+        </li>
+      </ul>
+    </nav>
   )
 }
 
-export default NavNar
+export default NavBar

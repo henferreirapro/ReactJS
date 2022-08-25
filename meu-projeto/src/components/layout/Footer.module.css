@@ -1,0 +1,21 @@
+.footer {
+  border: 1px solid;
+  padding: 0% 90%;
+}
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.social_list li {
+  margin: 0 1em;
+}
+
+.social_list svg {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: rgb(158, 126, 45);
+}
